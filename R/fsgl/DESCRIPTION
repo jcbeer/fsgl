@@ -1,0 +1,16 @@
+Package: fsgl
+Title: Fused Sparse Group Lasso
+Version: 0.0.0.9000
+Authors@R: person("Joanne", "Beer", email = "joannecbeer@gmail.com", role = c("aut", "cre"))
+Description: Functions to fit regularized regression models 
+    using a combination of penalty terms encouraging smoothness 
+    (fused lasso / total variation penalty), and/or sparsity 
+    (L1 and group lasso penalties). Designed specifically for 
+    analysis of 2 or 3 dimensional neuroimages.  
+Depends: R (>= 3.3.1)
+Imports: 
+    Matrix
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
