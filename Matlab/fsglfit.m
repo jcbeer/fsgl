@@ -76,7 +76,6 @@ function [pred_y, mse_y, beta, theta, mu, niter]...
     end
     % calculate beta update factor 
     % which does not change over loop iterations
-    % requires 36.4GB memory!
     beta_update_factor = Xcentered' * Xcentered + rho * (K' * K);
     % calculate beta update term 
     % which does not change over loop iterations
